@@ -30,10 +30,65 @@
 
 @media screen and (max-width: 1024px) {
 	
+	/* Navigation */
+	
+	.header-intro button{
+		font-size: 21px;
+	}
+	
+	/* END Navigation */
+	
+	
+	
+	
+	/* Quotes */
+	
+	.info-quotes p{
+		font-size: 21px;
+	}
+	
+	/* END Quotes */
+	
+	
+	
+	/* Profil */
+	
+	.profil-subtitle{
+		font-size: 21px;
+	}
+	
+	/* END Profil */
+	
+	
+	
+	/* Education */
+	
+	.content-box h4{
+		font-size: 21px;
+	}
+	.content-box p{
+		font-size: 19px;
+	}
+	.content-box span{
+		font-size: 17px;
+	}
+	
+	/* END Education */
+	
+	
+	
+	
 	/* Skill */
 	
 	.skill-category{
 		padding: 20px;
+		margin: -10px;
+	}
+	.skill-category p{
+		font-size: 21px;
+	}
+	.skill-progress p{
+		font-size: 17px;
 	}
 	
 	/* END Skill */
