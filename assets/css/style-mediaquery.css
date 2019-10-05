@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Size iPhone 5/SE 320px */
+
+/* END 320px */
+
+/* Size Galaxy S5 360px */
+
+/* END 360px */
+
+/* Size iPhone 6/7/8/X 375px */
+
+/* END 375px */
+
+/* Size Pixel 2/2XL 411px */
+
+/* END 411px */
+
+/* Size iPhone 6/7/8 Plus 414px */
+
+/* END 414px */
+
+/* Size iPad 768px */
+
+/* END 768px */
+
+/* Size iPad Pro 1024px */
+
+@media screen and (max-width: 1024px) {
+	
+	/* Skill */
+	
+	.skill-category{
+		padding: 20px;
+	}
+	
+	/* END Skill */
+	
+}
+
+/* END 1024px */
