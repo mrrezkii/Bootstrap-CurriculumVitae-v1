@@ -485,3 +485,24 @@ ul.timeline > li:before {
 }
 
 /* END Achievement */
+
+/* Portofolio Page */
+
+.parallax {
+    background-image: url(../image/portofolio.png);
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portofolio{
+	padding-top: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.portofolio h4{
+	font-size: 100px;
+}
+
+/* END Portofolio Page */
