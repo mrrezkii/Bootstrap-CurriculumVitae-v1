@@ -175,7 +175,7 @@ select:focus {
 .header-intro-xs{
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
+	margin-top: 100px;
 }
 .header-intro-xs h1{
 	font-size: 30px;
@@ -431,7 +431,6 @@ ul.timeline > li:before {
     background-repeat: no-repeat;
     background-size: cover;
 	padding-bottom: 30px;
-	margin-top: 100px;
 }
 .skill-category p{
 	font-size: 24px;

@@ -4,19 +4,71 @@
 
 /* Size iPhone 5/SE 320px */
 
+@media screen and (max-width: 320px) {
+	
+	
+}
+
 /* END 320px */
+
 
 /* Size Galaxy S5 360px */
 
+@media screen and (max-width: 360px) {
+	
+	/* Info */
+	
+	.info-quotes p{
+		font-size: 15px!important;
+	}
+	
+	/* END Info */
+	
+	/* ProfIle */
+	
+	.profil-subtitle{
+		font-size: 16px!important;
+	}
+	
+	/* END Profile */
+	
+	/* Skill */
+	
+	.skill-category-mobile p{
+		font-size: 14px!important;
+	}
+	
+	/* END Skill */
+}
+
 /* END 360px */
+
 
 /* Size iPhone 6/7/8/X 375px */
 
+@media screen and (max-width: 375px) {
+	
+	/* Achievement */
+	
+	.achievement-detail img{
+		width: 120px!important;
+	}
+	
+	/* END Achievement */
+}
+
 /* END 375px */
+
 
 /* Size Pixel 2/2XL 411px */
 
+@media screen and (max-width: 411px) {
+	
+	
+}
+
 /* END 411px */
+
 
 /* Size iPhone 6/7/8 Plus 414px */
 
@@ -36,7 +88,7 @@
 	/* Quotes */
 	
 	.info-quotes p{
-		font-size: 18px!important;
+		font-size: 17px;
 	}
 	.info-quotes span{
 		font-family: 'Fira Sans', sans-serif;
@@ -52,7 +104,7 @@
 	/* Profil */
 	
 	.profil-subtitle{
-		font-size: 19px;
+		font-size: 17px;
 	}
 	.profil-photo, .profil-detail{
 		text-align: center;
@@ -65,10 +117,10 @@
 	/* Education */
 	
 	ul.timeline h4{
-		font-size: 19px;
+		font-size: 17px;
 	}
 	ul.timeline h3{
-		font-size: 17px;
+		font-size: 16px;
 	}
 	ul.timeline span p{
 		font-size: 15px;
@@ -80,18 +132,38 @@
 	
 	/* Skill */
 	
-	.skill-category-mobile h4 {
-    	font-size: 19px;
+	.skill-category-mobile h4{
+    	font-size: 17px!important;
 	}
-	.skill-category-mobile p {
-    	font-size: 15px;
+	.skill-category-mobile p{
+    	font-size: 16px;
 	}
 	
 	/* END Skill */
 	
+	
+	
+	/* Achievement */
+	
+	.achievement-detail img{
+		width: 150px;
+	}
+	.achievement-detail h1{
+		font-size: 17px;
+	}
+	.achievement-detail h2{
+		font-size: 15px;
+	}
+	.achievement-detail h2{
+		font-size: 13px;
+	}
+	
+	/* END Achievement */
+	
 }
 
 /* END 414px */
+
 
 /* Size iPad 768px */
 
@@ -151,9 +223,20 @@
 	
 	/* END Profil */
 	
+	
+	
+	/* Skill */
+	
+	.skill-bg{
+		margin-top: 100px;
+	}
+	
+	/* END Skill */
+	
 }
 
 /* END 768px */
+
 
 /* Size iPad Pro 1024px */
 
@@ -221,6 +304,23 @@
 	}
 	
 	/* END Skill */
+	
+	
+	
+	
+	/* Achievement */
+	
+	.achievement-detail h1{
+		font-size: 21px;
+	}
+	.achievement-detail h2{
+		font-size: 19px;
+	}
+	.achievement-detail h2{
+		font-size: 17px;
+	}
+	
+	/* END Achievement */
 	
 }
 
