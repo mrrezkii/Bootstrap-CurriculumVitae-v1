@@ -11,7 +11,7 @@
 	<script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light shadow-lg">
+	<nav class="navbar navbar-expand-lg navbar-light shadow-lg fixed-top">
 	  <a class="navbar-brand font-cabin-bold color-white-1" href="#">mrrezki</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
@@ -19,16 +19,16 @@
 	  <div class="collapse navbar-collapse" id="navbarNav">
 		<ul class="navbar-nav ml-auto">
 		 	<li class="nav-item">
-				<a class="nav-link font-cabin-bold" href="#">Home</a>
+				<a class="nav-link font-cabin-bold" href="#header">Home</a>
 		  	</li>
 		  	<li class="nav-item">
-				<a class="nav-link font-cabin-bold" href="#">Education</a>
+				<a class="nav-link font-cabin-bold" href="#education">Education</a>
 			  </li>
 			<li class="nav-item">
-				<a class="nav-link font-cabin-bold" href="#">Skill</a>
+				<a class="nav-link font-cabin-bold" href="#skill">Skill</a>
 		  	</li>
 			<li class="nav-item">
-				<a class="nav-link font-cabin-bold" href="#">Achievement</a>
+				<a class="nav-link font-cabin-bold" href="#achievement">Achievement</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link font-cabin-bold" href="#">
@@ -50,7 +50,11 @@
 							<span class="font-cabin">as</span>
 							<span class="font-cabin-bold">Designer, Dreamer, Thinker</span>
 						</p>
-						<button class="font-cabin color-yellow">Read More</button>
+						<li class="nav-item">
+							<a class="nav-link font-cabin-bold" href="#info">
+								<button class="font-cabin color-yellow">Read More</button>
+							</a>
+						</li>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">&nbsp;</div>
@@ -82,7 +86,7 @@
 				<div class="col-md-8 offset-md-2">
 					<div class="info-quotes text-center">
 						<span class="color-blue float-right">&#8221;</span>
-						<p class="font-cabin color-black-1 text-center">I am a UI/UX Designer and Front End Developer for over 2 year experience. Over that, i am also a motion graphic designer</p>
+						<p class="font-cabin color-black-1 text-center">I am a UI/UX Designer and Front End Developer for over one year experience. Over that, i am also a motion graphic designer</p>
 					</div>
 				</div>
 			</div>
@@ -447,4 +451,8 @@
 	</section>
 </body>
 	<script type="text/javascript" src="includes/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
+	<script>
+		var scroll = new SmoothScroll('.nav-item a[href*="#"]');
+	</script>
 </html>
