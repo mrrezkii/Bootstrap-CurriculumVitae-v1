@@ -24,6 +24,64 @@
 
 /* Size iPad 768px */
 
+@media screen and (max-width : 768px) {
+	
+	/* Universal */
+	
+	.hidden-xs{
+		display: none!important;
+	}
+	.visible-xs{
+		display: block!important;
+	}
+		
+	/* Header */
+	
+	.header-bg{
+		height: 400px;
+	}
+	.header-intro{
+		margin-left: 55px;
+		margin-top: 60px;
+	}
+	.header-intro h1{
+		font-size: 38px;
+	}
+	.header-intro p{
+		font-size: 14px;
+	}
+	.header-intro button{
+		font-size: 19px!important;
+		margin-top: 15px;
+	}
+	
+	/* END Header */
+	
+	
+	
+	/* Info */
+	
+	.info-quotes p{
+		margin-top: -40px;
+	}
+	
+	/* END Quotes */
+	
+	
+	
+	/* Profil */
+	
+	.profil-detail{
+		margin-left: 20px;
+	}
+	.profile-resources{
+		padding-bottom: 25px;
+	}
+	
+	/* END Profil */
+	
+}
+
 /* END 768px */
 
 /* Size iPad Pro 1024px */
