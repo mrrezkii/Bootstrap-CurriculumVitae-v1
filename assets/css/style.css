@@ -169,6 +169,39 @@ select:focus {
 	background: #FDD835;
 	color: #F5F5F5;
 }
+.header-xs-bg{
+	background-color: #303F9F;
+}
+.header-intro-xs{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.header-intro-xs h1{
+	font-size: 30px;
+}
+.header-intro-xs p{
+	font-size: 14px;
+}
+.header-intro-xs button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	background: none;
+	border: 1px solid #FDD835;
+	border-radius: 29px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 45px;
+	padding-right: 45px;
+	transition: 0.3s;
+}
+.hidden-xs-header{
+	display: block!important;
+}
+.visible-xs-header{
+	display: none!important;
+}
 
 /* END Header */
 

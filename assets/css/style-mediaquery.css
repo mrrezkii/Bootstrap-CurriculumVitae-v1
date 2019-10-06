@@ -20,6 +20,77 @@
 
 /* Size iPhone 6/7/8 Plus 414px */
 
+@media screen and (max-width : 414px) {
+	
+	/* Header */
+	
+	.hidden-xs-header{
+		display: none!important;	
+	}
+	.visible-xs-header{
+		display: block!important;
+	}
+	
+	/* END Header */
+
+	/* Quotes */
+	
+	.info-quotes p{
+		font-size: 18px!important;
+	}
+	.info-quotes span{
+		font-family: 'Fira Sans', sans-serif;
+		font-size: 90px;
+		text-align: right;
+		margin-top: 20px;
+	}
+	
+	/* END Quotes */
+	
+	
+	
+	/* Profil */
+	
+	.profil-subtitle{
+		font-size: 19px;
+	}
+	.profil-photo, .profil-detail{
+		text-align: center;
+	}
+	
+	/* END Profil */
+	
+	
+	
+	/* Education */
+	
+	ul.timeline h4{
+		font-size: 19px;
+	}
+	ul.timeline h3{
+		font-size: 17px;
+	}
+	ul.timeline span p{
+		font-size: 15px;
+	}
+	
+	/* END Education */
+	
+	
+	
+	/* Skill */
+	
+	.skill-category-mobile h4 {
+    	font-size: 19px;
+	}
+	.skill-category-mobile p {
+    	font-size: 15px;
+	}
+	
+	/* END Skill */
+	
+}
+
 /* END 414px */
 
 /* Size iPad 768px */
